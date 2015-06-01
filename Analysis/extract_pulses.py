@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+# -------- extract_pulses.py --------------------------------
+# Beschreibung:  Dieses Skript untersucht die Ausgabe der DAQ-Karte auf Pulse, welche in eine separate Datei gechrieben werden.
+# Autor:      C. Theiß   Jun. 2015
+# last modified: 
+#--------------------------------------------------------------
+
+
 # Main routine
 # 1. Search for Trigger-Flag
 # 2. Copy all lines until next Trigger-Flag to buffer line

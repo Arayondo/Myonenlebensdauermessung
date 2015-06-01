@@ -1,8 +1,11 @@
 #!/usr/bin/env python
-"""Diese Datei zeigt wie man mit der DAQ-Karte Messungen durchfuehrt.
-   Inspired by muonic  http://code.google.com/p/muonic/
-   DAQ Card Manual: http://physik-begreifen-zeuthen.desy.de/sites2009/site_PhyBegZ/content/e2198/e2451/e6374/e129804/e129813/infoboxContent129819/DAQ-KarteUserManual_ger.pdf
-   2014 Dominik Haitz <dhaitz@cern.ch>
+
+# -------- daq.py --------------------------------
+# Beschreibung:  Haupt-Routine zum Starten von Messungen mit der DAQ-Karte
+# Autor:      C. Theiß   Jun. 2015
+# last modified: 
+#--------------------------------------------------------------
+"""Haupt-Routine zum Starten von Messungen mit der DAQ-Karte. Ruft je nach Messart die entsprechenden Skripte auf.
 """
 
 import argparse
@@ -45,7 +48,7 @@ def argumente():
 
 if __name__ == '__main__':
 	"""Dies ist die main Methode des Skripts, d.h. diese wird ausgefuehrt wenn
-	man das Skript direkt mit `python muonrate.py` startet."""
+	man das Skript direkt mit `daq.py` startet."""
 
 	opt = argumente()
 

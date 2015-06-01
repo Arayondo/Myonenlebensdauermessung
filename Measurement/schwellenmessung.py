@@ -1,4 +1,11 @@
 #!/usr/bin/env python
+
+# -------- schwellenmessung.py --------------------------------
+# Beschreibung:  Skript zur Steuerung der Pulshöhenspektrumsmessung
+# Autor:      C. Theiß   Jun. 2015
+# last modified: 
+#--------------------------------------------------------------
+
 """Diese Datei beinhaltet das Skript zur Durchführung einer Pulshöhenspektrumsmessung
 """
 

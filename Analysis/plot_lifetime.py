@@ -1,8 +1,14 @@
+#!/usr/bin/python -tt
+
 ###########
 # Header  #
 ###########
 
-
+# -------- plot_lifetime.py --------------------------------
+# Beschreibung:  Graphische Darstellung und Bestimmung der Myonenlebensdauer
+# Autor:      C. Theiß   Jun. 2015
+# last modified: 
+#--------------------------------------------------------------
 
 
 ###########

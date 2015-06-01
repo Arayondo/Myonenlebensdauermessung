@@ -1,9 +1,10 @@
 #!/usr/bin/env python
-"""Diese Datei zeigt wie man mit der DAQ-Karte Messungen durchfuehrt.
-   Inspired by muonic  http://code.google.com/p/muonic/
-   DAQ Card Manual: http://physik-begreifen-zeuthen.desy.de/sites2009/site_PhyBegZ/content/e2198/e2451/e6374/e129804/e129813/infoboxContent129819/DAQ-KarteUserManual_ger.pdf
-   2014 Dominik Haitz <dhaitz@cern.ch>
-"""
+
+# -------- daqclass.py --------------------------------
+# Beschreibung:  Klassenimplementierung einer DAQ-Karte
+# Autor:		 Dominik Haitz <dhaitz@cern.ch> 2014 https://github.com/dhaitz/muonrate
+# last modified: C. Theiß   Jun. 2015 - Klasse in eigene Datei ausgelagert
+#--------------------------------------------------------------
 
 import serial
 import time, sys, math

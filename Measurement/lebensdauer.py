@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+# -------- lebensdauer.py --------------------------------
+# Beschreibung:  Skript zur Steuerung einer Myonenlebensdauermessung
+# Autor:      C. Theiß   Jun. 2015
+# last modified: 
+#--------------------------------------------------------------
+
+
 import time, math
 			
 def dpmessung(opt,daqcard):			

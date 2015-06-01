@@ -4,6 +4,11 @@
 # Header #
 ##########
 
+# -------- plot_threshold.py --------------------------------
+# Beschreibung: Analyse-Skript für die Daten einer Pulshöhenspektrumsmessung
+# Autor:      C. Theiß   Jun. 2015
+# last modified: 
+#--------------------------------------------------------------
 
 
 ###########

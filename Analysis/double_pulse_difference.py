@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+# -------- double_pulse_difference.py --------------------------------
+# Beschreibung:  Analyse der registrierten Ereignisse auf Doppelpulse
+# Autor:      C. Theiß   Jun. 2015
+# last modified: 
+#--------------------------------------------------------------
+
+
 import argparse
 import numpy as np
 import matplotlib.pyplot as plt
